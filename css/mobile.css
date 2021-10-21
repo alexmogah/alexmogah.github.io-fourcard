@@ -1,0 +1,12 @@
+.wrapper {
+ display: flex;
+ flex-direction: column;
+}
+.box_a {
+    position: relative;
+    top: -20px;
+}
+.box_d {
+    position: relative;
+    top: 50px;
+}

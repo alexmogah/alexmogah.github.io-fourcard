@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+.main {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    grid-template-areas: "a b d"
+                         ". c . ";
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    justify-content: center;
+
+}
+
+.box_a {
+    grid-area: a;
+   
+    border-top-color: hsl(212, 86%, 64%) ;
+    border-top-style: solid;
+    position: relative;
+    top: 100px;
+   
+    text-align: center;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.25) ;
+    
+} 
+.box_b {
+    grid-area: b;
+    border-top-color: hsl(0, 78%, 62%) ;
+    border-top-style: solid;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.25) ;
+   
+    text-align: center;
+}
+.box_c {
+    grid-area: c;
+    border-top-color: hsl(34, 97%, 64%) ;
+    border-top-style: solid;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.25) ;
+    
+    text-align: center;
+}
+.box_d {
+    grid-area: d;
+    border-top-color: hsl(180, 62%, 55%) ;
+    border-top-style: solid;
+    position: relative;
+    top: 100px;
+    
+    box-shadow: 0px 2px 10px rgba(87, 71, 71, 0.25) ;
+   
+    text-align: center;
+    
+}
+h1 {
+    font-size: 2.5rem;
+    color: grey;
+}
+span {
+    font-size: 2.3rem;
+    font-weight: bolder;
+    position: relative;
+    top: -25px;
+}
+.main2 {
+    position: relative;
+    top: -30px;
+    color: hsl(0, 3%, 47%);
+
+}
+#sup {
+    position: relative;
+}
+#supervisor2 {
+    position: relative;
+    right: -70px;
+    
+}
+#builder2 {
+    position: relative;
+    right: -70px;
+}
+#karma2 {
+    position: relative;
+    right: -70px;
+}
+#calculator2 {
+    position: relative;
+    right: -70px;
+}
